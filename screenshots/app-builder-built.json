@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Indome Agency",
+      "hasCanvas": false,
+      "bodyTextLen": 3008,
+      "bodyTextHash": "8502899e1b63076daa84f214bbe9ac3963d7a5f846cd250fac15f393b5081a6f",
+      "bodyTextPrefix": "Indome AGENCY Packages Why us Reviews Book Contact Book a trip F",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Indome Agency",
+      "hasCanvas": false,
+      "bodyTextLen": 2959,
+      "bodyTextHash": "a0097a74615f09cc5d590ebb12b9b80d9fee3fe83594ebd7fbcdf8fc33051d31",
+      "bodyTextPrefix": "Indome AGENCY FLIGHTS TO INDONESIA Five days, planned to the tra",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

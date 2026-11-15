@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #fbfaf7;
+  --color-paper: #ffffff;
+  --color-ink: #1a1714;
+  --color-muted: #5e584f;
+  --color-gold: #a68534;
+  --color-gold-deep: #7a5e1e;
+  --color-line: #e7dfd0;
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --radius-card: 1.25rem;
+}
+
+@layer base {
+  html {
+    background: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+.plan-pop {
+  max-height: 70vh;
+  box-shadow: 0 18px 40px color-mix(in srgb, var(--color-ink) 12%, transparent);
+}
+
+.photo-frame {
+  aspect-ratio: 3 / 2;
+}
+
+.hero-frame {
+  min-height: 88vh;
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.pop-in {
+  animation: pop-in 200ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pop-in {
+    animation: none;
+  }
+}
